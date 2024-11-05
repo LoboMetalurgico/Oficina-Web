@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/form.css">
+
+    <script src="/js/admin.js"></script>
+</head>
+  <body>
+      <h1 class="h1">ADMIN - Login</h1>
+      <div id="resultado"></div>
+      <form class="form" onSubmit="adminLogin(event)">
+        <label class="label" for="email">Email:</label>
+        <input class="input" type="text" id="email" name="email" required>
+        <br><br>
+
+        <label class="label" for="endereco">Senha:</label>
+        <input class="input" type="password" id="password" name="password" required>
+        <br><br>
+  
+        <button class="button" type="submit">Login</button>
+      </form>
+  </body>
+</html>

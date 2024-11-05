@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+
+    <script src="/js/admin.js"></script>
+</head>
+  <body>
+      <h1 class="mainhead">ADMIN</h1>
+      <h2 class="subhead">Lista de Usuários</h2>
+      <ul class="user-list" id="usuarios"></ul>
+      <script>listUsers()</script>
+      <button class="logout" onclick="logout()">Sair</button>
+  </body>
+</html>

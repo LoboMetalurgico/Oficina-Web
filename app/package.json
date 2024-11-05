@@ -1,0 +1,31 @@
+{
+  "name": "oficina-app",
+  "version": "1.0.0",
+  "description": "Aplicativo base para a oficina de WEB da Unip Paraíso",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoboMetalurgico/Oficina-Web.git"
+  },
+  "author": {
+    "name": "Hugo Heger",
+    "email": "hugoheger@hotmail.com",
+    "url": "https://github.com/LoboMetalurgico"
+  },
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/LoboMetalurgico/Oficina-Web/issues"
+  },
+  "homepage": "https://github.com/LoboMetalurgico/Oficina-Web#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1",
+    "promisedb": "file:libs/promisedb-1.0.0.tgz"
+  }
+}

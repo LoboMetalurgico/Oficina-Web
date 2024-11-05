@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/form.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulário de Cadastro</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <h1 class="h1" >Cadastro de Usuário</h1>
+    <div id="resultado"></div>
+
+    <form class="form" onSubmit="enviarDados(event)">
+      <label class="label" for="nome">Nome:</label>
+      <input class="input" type="text" id="name" name="name" required>
+      <br><br>
+
+      <label class="label" for="email">Email:</label>
+      <input class="input" type="email" id="email" name="email" required>
+      <br><br>
+
+      <label class="label" for="telefone">Telefone:</label>
+      <input class="input" type="text" id="phone" name="phone" required>
+      <br><br>
+
+      <label class="label" for="endereco">Endereço:</label>
+      <input class="input" type="text" id="address" name="address" required>
+      <br><br>
+
+      <button class="button" type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
